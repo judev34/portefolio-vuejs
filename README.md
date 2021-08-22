@@ -1,5 +1,9 @@
 # my-portfolio
 
+## Project plugins
+
+Typewriter : https://github.com/Orlandster/vue-typed-js
+
 ## Project setup
 ```
 npm install
