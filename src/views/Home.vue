@@ -2,8 +2,15 @@
   <div class="container mt-3 flex-grow-1">
     <div class="row">
       <div class="col-sm-12 col-md-6 d-flex-column mt-auto mb-auto">
-        <h1 class="d-md-flex align-items-start">Julien Coudert</h1>
-        <p class="d-md-flex text-md-left">Salut, je suis un developpeur web junior fraîchement sortie d'une formation de développeur web & web mobile</p>
+        <vue-typed-js 
+          :loop="true" 
+          :typeSpeed="80"
+          :backSpeed="50"
+          :startDelay="1000"
+          :strings="['un dev noob', 'motivé']">
+          <h1>Hello, Je suis <span class="typing"></span></h1>
+        </vue-typed-js>
+        <p class="d-md-flex text-md-left">Salut, Je m'apelle Julien, je suis un developpeur web junior fraîchement sortie d'une formation de développeur web & web mobile</p>
         <button class="btn btn-dark d-md-flex align-items-start">Contactez-moi</button>
       </div>
       <div class="col-sm-12 col-md-6 mt-sm-3">
@@ -35,6 +42,8 @@
 
 <script>
 // @ is an alias to /src
+
+
 
 export default {
   name: 'Home',
