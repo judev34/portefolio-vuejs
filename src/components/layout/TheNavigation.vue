@@ -7,8 +7,26 @@
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-        <b-nav-item to="/" exact exact-active-class="active">Accueil</b-nav-item>
-        <b-nav-item to="/actualites" exact exact-active-class="active">Actualités</b-nav-item>
+        <router-link 
+          to="/" 
+          custom
+          v-slot="{ href, navigate, isActive}"
+        ><b-nav-item 
+            :active="isActive" 
+            :href="href"
+            @click="navigate"
+            >Accueil</b-nav-item>
+        </router-link> 
+        <router-link
+          to="/actualites" 
+          custom
+          v-slot="{ href, navigate, isActive}"
+        ><b-nav-item 
+            :active:active="isActive" 
+            :href="href"
+            @click="navigate"
+            >Actualités</b-nav-item>
+        </router-link>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
