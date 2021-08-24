@@ -2,16 +2,16 @@
   <div class="container mt-3 flex-grow-1">
     <div class="row">
       <div class="col-sm-12 col-md-6 d-flex-column mt-auto mb-auto">
-        <vue-typed-js 
+        <!-- <vue-typed-js 
           :loop="true" 
           :typeSpeed="80"
           :backSpeed="50"
           :startDelay="2000"
-          :strings="['un dev', 'motivé']">
+          :strings="['un dev', 'motivé']"> -->
           <Appear :transition="['-100px',0]" :delay="100">
-            <h1 class="ml-auto mr-auto ml-md-0 mr-md-0">Hello, Je suis <span class="typing"></span></h1>
+            <h1 class="ml-auto mr-auto ml-md-0 mr-md-0">Hello, Je suis Julien</h1>
           </Appear>
-        </vue-typed-js>
+        <!-- </vue-typed-js> -->
         <Appear :transition="['-100px',0]" :delay="200">
           <p class="d-md-flex text-md-left">Salut, Je m'apelle Julien, je suis un developpeur web junior fraîchement sortie d'une formation de développeur web & web mobile</p>
         </Appear>

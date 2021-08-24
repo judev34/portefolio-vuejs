@@ -7,7 +7,7 @@ import { BootstrapVue, BootstrapVueIcons } from 'bootstrap-vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import VueTypedJs from 'vue-typed-js'
+// import VueTypedJs from 'vue-typed-js'
 import axios from 'axios'
 import Appear from '@/components/transitions/Appear'
 
@@ -15,7 +15,7 @@ Vue.config.productionTip = false
 Vue.use(BootstrapVue)
 Vue.use(BootstrapVueIcons)
 Vue.use(axios)
-Vue.use(VueTypedJs)
+// Vue.use(VueTypedJs)
 Vue.component('Appear', Appear)
 
 
