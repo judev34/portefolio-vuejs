@@ -22,7 +22,7 @@
           custom
           v-slot="{ href, navigate, isActive}"
         ><b-nav-item 
-            :active:active="isActive" 
+            :active="isActive" 
             :href="href"
             @click="navigate"
             >Actualités</b-nav-item>
