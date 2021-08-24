@@ -9,7 +9,7 @@
           :startDelay="2000"
           :strings="['un dev', 'motivé']">
           <Appear :transition="['-100px',0]" :delay="100">
-            <h1>Hello, Je suis <span class="typing"></span></h1>
+            <h1 class="ml-auto mr-auto ml-md-0 mr-md-0">Hello, Je suis <span class="typing"></span></h1>
           </Appear>
         </vue-typed-js>
         <Appear :transition="['-100px',0]" :delay="200">
@@ -19,7 +19,7 @@
           <button class="btn btn-dark d-md-flex align-items-start">Contactez-moi</button>
         </Appear>
       </div>
-      <div class="col-sm-12 col-md-6 mt-sm-3">
+      <div class="col-sm-12 col-md-6 mt-sm-3 mt-3 mt-md-0">
         <Appear :transition="['100px',0]" :delay='500'>
           <img class="img-profil img-fluid" src="../assets/trombine.jpg" alt="ma figure">
         </Appear>
@@ -76,6 +76,12 @@ export default {
 .card-language > img {
   max-height: 100%;
   height: 200px;
+}
+
+@media screen and (max-width: 560px) {
+  .img-profil {
+    height: 300px !important;
+  }
 }
 
 

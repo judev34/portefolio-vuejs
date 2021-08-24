@@ -11,6 +11,7 @@
           v-bind:key="index" 
           v-for="(article, index) in allArticles"
         >
+        <!-- <Appear :transition="[0,'50px']" :delay="100 * index + 1"> -->
           <h4>{{ article.title }}</h4>
           <p> {{ article.description}}</p>
           <a v-bind:href="article.url">Voir l'article</a>

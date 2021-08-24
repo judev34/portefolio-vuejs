@@ -9,7 +9,7 @@ import router from './router'
 import store from './store'
 import VueTypedJs from 'vue-typed-js'
 import axios from 'axios'
-import Appear from '@/components/Appear'
+import Appear from '@/components/transitions/Appear'
 
 Vue.config.productionTip = false
 Vue.use(BootstrapVue)
