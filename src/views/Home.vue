@@ -6,15 +6,23 @@
           :loop="true" 
           :typeSpeed="80"
           :backSpeed="50"
-          :startDelay="1000"
-          :strings="['un dev noob', 'motivé']">
-          <h1>Hello, Je suis <span class="typing"></span></h1>
+          :startDelay="2000"
+          :strings="['un dev', 'motivé']">
+          <Appear :transition="['-100px',0]" :delay="100">
+            <h1>Hello, Je suis <span class="typing"></span></h1>
+          </Appear>
         </vue-typed-js>
-        <p class="d-md-flex text-md-left">Salut, Je m'apelle Julien, je suis un developpeur web junior fraîchement sortie d'une formation de développeur web & web mobile</p>
-        <button class="btn btn-dark d-md-flex align-items-start">Contactez-moi</button>
+        <Appear :transition="['-100px',0]" :delay="200">
+          <p class="d-md-flex text-md-left">Salut, Je m'apelle Julien, je suis un developpeur web junior fraîchement sortie d'une formation de développeur web & web mobile</p>
+        </Appear>
+        <Appear :transition="[0,'50px']" :delay="400">
+          <button class="btn btn-dark d-md-flex align-items-start">Contactez-moi</button>
+        </Appear>
       </div>
       <div class="col-sm-12 col-md-6 mt-sm-3">
-        <img class="img-profil img-fluid" src="../assets/trombine.jpg" alt="ma figure">
+        <Appear :transition="['100px',0]" :delay='500'>
+          <img class="img-profil img-fluid" src="../assets/trombine.jpg" alt="ma figure">
+        </Appear>
       </div>
     </div>
     <div class="d-flex justify-content-around mt-5">
@@ -43,8 +51,13 @@
 <script>
 // @ is an alias to /src
 
+
 export default {
-  name: 'Home'
+  name: 'Home',
+  // components: {
+  //   'Appear' : Appear
+  // }
+
 }
 </script>
 
