@@ -1,6 +1,6 @@
 <template>
 <nav>
-  <b-navbar toggleable="lg" type="dark" variant="dark">
+  <b-navbar class="navbar-perso" toggleable="lg" type="dark" variant="dark">
     <b-navbar-brand to="/" exact>PorteFolio</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -18,14 +18,14 @@
             >Accueil</b-nav-item>
         </router-link> 
         <router-link
-          to="/actualites" 
+          to="/contact" 
           custom
           v-slot="{ href, navigate, isActive}"
         ><b-nav-item 
             :active="isActive" 
             :href="href"
             @click="navigate"
-            >Actualités</b-nav-item>
+            >Contact</b-nav-item>
         </router-link>
       </b-navbar-nav>
     </b-collapse>
@@ -41,4 +41,7 @@ export default {
 
 <style>
 
+.navbar-perso {
+  height: 100px;
+}
 </style>
