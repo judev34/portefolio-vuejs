@@ -31,87 +31,95 @@
         </div>
       </div>
     </section>
-    <section class="container container-langues bg-light">
+    <section class="container-fluid w-md-80 container-langues bg-light pt-5">
       <h2 class="text-center">Mes Compétences</h2>
-      <div class="row">
-        <div class="col-sm-6 col-md-3">
-          <div class="card">
-            <div class="card-body">
-              <icon-base width="50" height="50" viewBox="0 0 50 50" iconColor="#fb8500" icon-name="IconHtml"><icon-html/></icon-base>
-              <icon-base width="55" height="55" viewBox="0 0 50 50" iconColor="#0077B6" icon-name="IconCss"><icon-css/></icon-base>
+      <div class="row mt-5 ml-lg-3 mr-lg-3 ml-xl-5 mr-xl-5">
+        <div class="col-sm-6 col-md-3 mb-3">
+          <div class="card card-perso">
+            <div class="card-body d-flex flex-column align-items-start">
+              <div>
+                <icon-base width="50" height="50" viewBox="0 0 50 50" iconColor="#fb8500" icon-name="IconHtml"><icon-html/></icon-base>
+                <icon-base width="55" height="55" viewBox="0 0 50 50" iconColor="#0077B6" icon-name="IconCss"><icon-css/></icon-base>
+              </div>
               <h5 class="card-title">HTML5 - CSS3</h5>
               <p class="card-text">Bases solides en ce qui concerne le contenu, balisage, et présentation du contenu.</p>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="card">
-            <div class="card-body">
-              <icon-base width="50" height="50" viewBox="0 0 50 50" iconColor="#03045E" icon-name="IconPhp"><icon-php/></icon-base>
+        <div class="col-sm-6 col-md-3 mb-3">
+          <div class="card card-perso">
+            <div class="card-body d-flex flex-column align-items-start">
+              <icon-base width="50" height="50" viewBox="0 0 50 50" iconColor="#787cb4" icon-name="IconPhp"><icon-php/></icon-base>
               <h5 class="card-title">PHP 7</h5>
               <p class="card-text">Très bonnes bases en PHP. Langage étudié pendant la formation et utilisé en stage.</p>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="card">
-            <div class="card-body">
+        <div class="col-sm-6 col-md-3 mb-3">
+          <div class="card card-perso">
+            <div class="card-body d-flex flex-column align-items-start">
+              <icon-base width="50" height="50" viewBox="0 0 50 50" iconColor="#f7e018" icon-name="IconJavascript"><icon-javascript/></icon-base>
               <h5 class="card-title">Javascript</h5>
               <p class="card-text">Bonnes bases en JS natif. Langage actuellement étudié afin de progrésser.</p>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="card">
-            <div class="card-body">
+        <div class="col-sm-6 col-md-3 mb-3">
+          <div class="card card-perso">
+            <div class="card-body d-flex flex-column align-items-start">
+              <icon-base width="70" height="70" viewBox="0 0 40 30" iconColor="#3fb984" icon-name="IconVue"><icon-vue/></icon-base>
               <h5 class="card-title">Vue.js</h5>
               <p class="card-text">Framework en cours d'apprentissage ! Ce portefolio est fait en Vue.js SPA.</p>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="card">
-            <div class="card-body">
+        <div class="col-sm-6 col-md-3 mb-3">
+          <div class="card card-perso">
+            <div class="card-body d-flex flex-column align-items-start">
+              <icon-base width="80" height="80" viewBox="0 0 40 30" iconColor="#2e7d32" icon-name="IconNode"><icon-node/></icon-base>
               <h5 class="card-title">Nuxt.js / Node.js / Express.js </h5>
               <p class="card-text">La prochaine étape après avoir progréssé avec Vue.js.</p>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="card">
-            <div class="card-body">
+        <div class="col-sm-6 col-md-3 mb-3">
+          <div class="card card-perso">
+            <div class="card-body d-flex flex-column align-items-start">
+              <icon-base width="50" height="50" viewBox="0 0 50 50" iconColor="#000000" icon-name="IconSymfony"><icon-symfony/></icon-base>
               <h5 class="card-title">Symfony</h5>
               <p class="card-text">Projet de fin d'année réalisé avec Symfony 5. Le stage de fin de formation s'est déroulé sur Symfony 3.</p>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="card">
-            <div class="card-body">
+        <div class="col-sm-6 col-md-3 mb-3">
+          <div class="card card-perso">
+            <div class="card-body d-flex flex-column align-items-start">
+              <icon-base width="50" height="50" viewBox="0 0 50 50" iconColor="#f29111" icon-name="IconMysql"><icon-mysql/></icon-base>
               <h5 class="card-title">MySQL / Doctrine</h5>
               <p class="card-text">Langages et ORM utilisés au cours de la formation.</p>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="card">
-            <div class="card-body">
+        <div class="col-sm-6 col-md-3 mb-3">
+          <div class="card card-perso">
+            <div class="card-body d-flex flex-column align-items-start">
               <h5 class="card-title">MongoDb</h5>
               <p class="card-text">A étudier.</p>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title"><b-icon icon="github" variant="primary" font-scale="1.5"></b-icon>Github</h5>
+        <div class="col-sm-6 col-md-3 mb-3">
+          <div class="card card-perso">
+            <div class="card-body d-flex flex-column align-items-start">
+              <icon-base width="50" height="50" viewBox="0 0 50 50" iconColor="#1b1f23" icon-name="IconGithub"><icon-github/></icon-base>
+              <h5 class="card-title">Github</h5>
               <p class="card-text">J'utilise Github quotidiennement pour progresser en versionning et être prêt au travail collaboratif.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="d-flex justify-content-around mt-5">
+    <!-- <section class="d-flex justify-content-around mt-5">
       <b-card
         title="Symfony"
         img-src="../assets/logos/symfonylogo.png"
@@ -130,7 +138,7 @@
         class="img-fluid card-language"
       >
       </b-card>
-    </section>
+    </section> -->
   </div>
 </template>
 
@@ -181,6 +189,10 @@ export default {
 
 .container-langues {
   min-height: 500px;
+}
+
+.card-perso {
+  min-height: 255px;
 }
 
 .card-language {
