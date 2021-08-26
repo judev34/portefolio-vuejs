@@ -12,8 +12,16 @@ import axios from 'axios'
 import Appear from '@/components/transitions/Appear'
 import aos from 'aos'
 import 'aos/dist/aos.css'
+import IconBase from '@/components/IconBase'
+import IconHtml from '@/components/assets/IconHtml'
+import IconCss from '@/components/assets/IconCss'
+import IconPhp from '@/components/assets/IconPhp'
 
 Vue.config.productionTip = false
+Vue.component('iconBase', IconBase);
+Vue.component('IconHtml', IconHtml);
+Vue.component('IconCss', IconCss);
+Vue.component('IconPhp', IconPhp);
 Vue.use(BootstrapVue)
 Vue.use(BootstrapVueIcons)
 Vue.use(axios)
