@@ -21,7 +21,9 @@ Vue.use(aos)
 // Vue.use(VueTypedJs)
 Vue.component('Appear', Appear)
 
-aos.init();
+aos.init({
+
+});
 
 new Vue({
   router,

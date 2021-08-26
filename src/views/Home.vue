@@ -8,19 +8,15 @@
             <img class="img-fluid img-code-icon" src="../assets/logos/code-icon.png" alt="icone-code">
           </div>
           <div class="col-12 col-md-7 d-flex flex-column justify-content-center mt-3 mb-3">
-            <ul class="text-center list-unstyled d-flex flex-column flex-sm-row mt-3 mb-xs-1 mb-sm-2">
-              <li data-aos="fade-left"
+            <ul data-aos="zoom-out-up"
                   data-aos-delay="200" 
-                  data-aos-duration="1000"
-                  class="nav-link btn btn-onglet flex-fill active" v-on:click="component = 'onglet1'" >Presentation</li>
-              <li data-aos="fade-left"
-                  data-aos-delay="200" 
-                  data-aos-duration="1000" class="nav-link btn btn-onglet flex-fill active" v-on:click="component = 'onglet2'">Experiences professionnelles</li>
-              <li data-aos="fade-left"
-                  data-aos-delay="200" 
-                  data-aos-duration="1000" class="nav-link btn btn-onglet flex-fill active" v-on:click="component = 'onglet3'">Formation & diplômes</li>
+                  data-aos-duration="1000" class="text-center list-unstyled d-flex flex-column flex-sm-row mt-3 mb-xs-1 mb-sm-2"
+            >
+              <li class="nav-link btn btn-onglet flex-fill active" v-on:click="component = 'onglet1'" >Presentation</li>
+              <li class="nav-link btn btn-onglet flex-fill active" v-on:click="component = 'onglet2'">Experiences professionnelles</li>
+              <li class="nav-link btn btn-onglet flex-fill active" v-on:click="component = 'onglet3'">Formation & diplômes</li>
             </ul>
-            <div class="">
+            <div class="data-anchor">
               <div data-aos="zoom-out-up"
                   data-aos-delay="200" 
                   data-aos-duration="1000" 

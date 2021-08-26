@@ -41,7 +41,5 @@ export default {
 
 <style>
 
-.navbar-perso {
-  height: 100px;
-}
+
 </style>
