@@ -9,7 +9,7 @@
           </div>
           <div class="col-12 col-md-7 d-flex flex-column justify-content-center mt-3 mb-3">
             <h2 class="text-center">Mon Experience</h2>
-            <ul data-aos="zoom-out-up"
+            <ul data-aos="fade-up"
                   data-aos-delay="200" 
                   data-aos-duration="1000" class="text-center list-unstyled d-flex flex-column flex-sm-row mt-3 mb-xs-1 mb-sm-2"
             >
@@ -18,12 +18,12 @@
               <li class="nav-link btn btn-onglet flex-fill active" v-on:click="component = 'onglet3'">Formation & diplômes</li>
             </ul>
             <div class="data-anchor">
-              <div data-aos="zoom-out-up"
+              <div data-aos="fade-up"
                   data-aos-delay="200" 
                   data-aos-duration="1000" 
                   class="card onglets">
                 <transition name="component-fade" mode="out-in">
-                  <component v-bind:is="component" class="p-2 "></component>
+                  <component v-bind:is="component" class=""></component>
                 </transition>
               </div>
             </div>
@@ -47,7 +47,7 @@
           </div>
         </div>
         <div class="col-sm-6 col-md-3 mb-3">
-          <div class="card card-perso">
+          <div class="card card-perso" >
             <div class="card-body d-flex flex-column align-items-start">
               <icon-base width="50" height="50" viewBox="0 0 50 50" iconColor="#787cb4" icon-name="IconPhp"><icon-php/></icon-base>
               <h5 class="card-title">PHP 7</h5>
@@ -101,7 +101,7 @@
           </div>
         </div>
         <div class="col-sm-6 col-md-3 mb-3">
-          <div class="card card-perso">
+          <div class="card card-perso" >
             <div class="card-body d-flex flex-column align-items-start">
               <h5 class="card-title">MongoDb</h5>
               <p class="card-text">A étudier.</p>
@@ -216,7 +216,7 @@ export default {
 }
 
 .onglets {
-  min-height: 230px;
+  /* min-height: 230px; */
   color: white;
   background: none;
   border: none !important;
