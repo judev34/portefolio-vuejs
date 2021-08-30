@@ -237,7 +237,7 @@ export default {
 }
 .btn-onglet:hover {
   color: white;
-  background-color: #1282A2;
+  background-color: #FF6700;
 }
 /* .btn-onglet:active {
   background-color: #1282A2;

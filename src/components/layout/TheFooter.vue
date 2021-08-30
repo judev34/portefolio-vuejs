@@ -5,6 +5,7 @@
                 <h3>Plan du site</h3>
                 <b-navbar-nav>
                     <b-nav-item to="/" exact exact-active-class="active">Accueil</b-nav-item>
+                    <b-nav-item to="/portefolio" exact exact-active-class="active">PorteFolio</b-nav-item> 
                     <b-nav-item to="/contact" exact exact-active-class="active">Contact</b-nav-item> 
                 </b-navbar-nav>
             </div>
