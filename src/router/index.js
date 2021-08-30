@@ -3,12 +3,13 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Contact from '../components/forms/Contact.vue'
 import Page404 from '../components/errors/Page404.vue'
-
+import Portefolio from '../views/Portefolio.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   { path: '/', name: 'Home', component: Home },
+  { path: '/portefolio', name: 'Portefolio', component: Portefolio },
   { path: '/contact', name: 'Contact', component: Contact },
   // { path: '/actualites', name: 'Actualites',
   //   // route level code-splitting

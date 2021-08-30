@@ -1,6 +1,6 @@
 <template>
 <nav>
-  <b-navbar class="navbar-perso" toggleable="lg" type="dark" variant="dark">
+  <b-navbar class="navbar-perso navbar-dark" toggleable="lg" >
     <b-navbar-brand to="/" exact>PorteFolio</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -17,6 +17,16 @@
             @click="navigate"
             >Accueil</b-nav-item>
         </router-link> 
+        <router-link
+          to="/portefolio" 
+          custom
+          v-slot="{ href, navigate, isActive}"
+        ><b-nav-item 
+            :active="isActive" 
+            :href="href"
+            @click="navigate"
+            >Portefolio</b-nav-item>
+        </router-link>
         <router-link
           to="/contact" 
           custom
@@ -40,6 +50,13 @@ export default {
 </script>
 
 <style>
+.navbar-perso {
+  background: rgb(0,78,152);
+  color: white !important;
+}
 
+.navbar-brand {
+  color: white;
+}
 
 </style>

@@ -1,6 +1,6 @@
 <template>
-    <footer class="container-fluid">
-        <div class="row d-flex justify-content-between mt-sm-3 p-md-5 bg-dark text-white">
+    <footer class="container-fluid container-footer">
+        <div class="row d-flex justify-content-between p-md-5 text-white">
             <div class="col-12 col-sm-6 mt-3 mt-md-0 text-center">
                 <h3>Plan du site</h3>
                 <b-navbar-nav>
@@ -23,13 +23,13 @@
             <div class="col-12 col-sm-6 mt-3 mt-lg-0 text-center">
                 <h3>Reseaux sociaux</h3>
                 <b-list-group class="d-flex flex-row justify-content-center mt-3"> 
-                   <b-list-group-item class="reseaux-item bg-dark">
+                   <b-list-group-item class="reseaux-item">
                         <a href="">
-                        <b-icon icon="linkedin" variant="primary" font-scale="2"></b-icon></a>
+                        <b-icon icon="linkedin" variant="light" font-scale="2"></b-icon></a>
                     </b-list-group-item> 
-                   <b-list-group-item class="reseaux-item bg-dark">
+                   <b-list-group-item class="reseaux-item">
                        <a href="https://github.com/judev34">
-                       <b-icon icon="github" variant="primary" font-scale="2"></b-icon></a>
+                       <b-icon icon="github" variant="light" font-scale="2"></b-icon></a>
                     </b-list-group-item> 
                 </b-list-group>
             </div>
@@ -47,7 +47,20 @@ export default {
 
 <style>
 
+.container-footer {
+    background: rgb(0,78,152);
+}
+
+.nav-item > a {
+    color: white;
+}
+
+.nav-item > a:hover {
+    color: lightgrey;
+}
+ 
 .reseaux-item {
     border: none;
+    background: rgb(0,78,152);
 }
 </style>

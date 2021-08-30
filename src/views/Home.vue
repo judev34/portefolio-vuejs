@@ -1,19 +1,19 @@
 <template>
-  <div class="container-fluid mt-3 flex-grow-1 p-0">
+  <div class="container-fluid container-home flex-grow-1 p-0">
     <headercomponent></headercomponent>
-    <section class="section-onglets mt-3 bg-dark">
+    <section class="section-onglets mt-3">
       <div class="container">
         <div class="row">
           <div class="d-none d-md-flex col-md-5">
             <img class="img-fluid img-code-icon" src="../assets/logos/code-icon.png" alt="icone-code">
           </div>
           <div class="col-12 col-md-7 d-flex flex-column justify-content-center mt-3 mb-3">
-            <h2 class="text-center">Mon Experience</h2>
+            <h2 class="text-center text-white">Mon Experience</h2>
             <ul data-aos="fade-up"
                   data-aos-delay="200" 
                   data-aos-duration="1000" class="text-center list-unstyled d-flex flex-column flex-sm-row mt-3 mb-xs-1 mb-sm-2"
             >
-              <li class="nav-link btn btn-onglet flex-fill active" v-on:click="component = 'onglet1'" >Presentation</li>
+              <li class="nav-link btn btn-onglet flex-fill active" v-on:click="component = 'onglet1'">Presentation</li>
               <li class="nav-link btn btn-onglet flex-fill active" v-on:click="component = 'onglet2'">Experiences professionnelles</li>
               <li class="nav-link btn btn-onglet flex-fill active" v-on:click="component = 'onglet3'">Formation & diplômes</li>
             </ul>
@@ -31,7 +31,7 @@
         </div>
       </div>
     </section>
-    <section class="container-fluid w-md-80 container-langues bg-light pt-5">
+    <section class="container-fluid w-md-80 container-langues pt-5">
       <h2 class="text-center">Mes Compétences</h2>
       <div class="row mt-5 ml-lg-3 mr-lg-3 ml-xl-5 mr-xl-5">
         <div class="col-sm-6 col-md-3 mb-3">
@@ -182,6 +182,11 @@ export default {
   opacity: 0;
 }
 
+.container-home {
+    background: linear-gradient(163deg, rgba(192,192,192,1) 0%, rgba(235,235,235,1) 49%); 
+
+}
+
 .img-profil{
   height: 500px;
   border-radius: 10px;
@@ -189,6 +194,7 @@ export default {
 
 .container-langues {
   min-height: 500px;
+    background: linear-gradient(163deg, rgba(192,192,192,1) 0%, rgba(235,235,235,1) 49%); 
 }
 
 .card-perso {
@@ -213,6 +219,7 @@ export default {
 
 .section-onglets {
   min-height: 250px;
+  background: linear-gradient(163deg, rgba(0,78,152,1) 0%, rgba(58,110,165,1) 84%); 
 }
 
 .onglets {
