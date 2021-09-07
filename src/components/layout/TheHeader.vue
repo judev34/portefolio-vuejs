@@ -14,7 +14,7 @@
           </div>
         </div>
     
-        <div class="col-sm-12 col-md-6 mt-sm-3 mt-3 mt-md-0 d-flex justify-content-center align-items-center">
+        <div class="col-sm-12 col-md-6 d-flex justify-content-center align-items-center">
           <Appear :transition="['100px',0]" :delay='500'>
             <img class="img-profil img-fluid" src="../../assets/trombinou.png" alt="ma figure">
           </Appear>
